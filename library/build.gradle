@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.library' version '8.1.2'
+}
+
+android {
+    namespace = "com.github.javiersantos.appupdater"
+    compileSdkVersion = 34
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lint {
+        disable 'MissingTranslation'
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'org.jsoup:jsoup:1.11.3'
+    implementation 'androidx.annotation:annotation-jvm:1.7.0'
+    implementation 'com.google.android.material:material:1.10.0'
+}
