@@ -9,11 +9,6 @@
 
 <p align="center">Android Library that checks for updates on Google Play, GitHub, Amazon, F-Droid or your own server. This library notifies your apps' updates by showing a Material dialog, Snackbar or notification. Check out the <a href="https://github.com/javiersantos/AppUpdater/wiki">wiki</a>.</p>
 
-## Sample Project
-You can download the latest sample APK from Google Play:
-
-<a target="_blank" href="https://play.google.com/store/apps/details?id=com.github.javiersantos.appupdater.demo"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="60"></a>
-
 ## How to include
 Add the repository to your project **build.gradle**:
 ```Gradle
@@ -153,7 +148,7 @@ appUpdaterUtils.start();
 ![AppUpdater](https://raw.githubusercontent.com/javiersantos/AppUpdater/master/Screenshots/banner.png)
 
 ## License
-	Copyright 2016 Javier Santos
+	Copyright 2023 isaev Dmitry 
 	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
