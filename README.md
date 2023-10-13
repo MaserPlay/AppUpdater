@@ -148,7 +148,7 @@ appUpdaterUtils.start();
 ![AppUpdater](https://raw.githubusercontent.com/javiersantos/AppUpdater/master/Screenshots/banner.png)
 
 ## License
-	Copyright 2023 isaev Dmitry 
+	Copyright 2023 MaserPlay  
 	
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
