@@ -1,7 +1,7 @@
 <h1 align="center">AppUpdater <a href="https://github.com/javiersantos/AppUpdater#how-to-include"><img src="https://jitpack.io/v/javiersantos/AppUpdater.svg"></a></h1>
 <h4 align="center">Android Library</h4>
 
-<p align="center">This is a updated version <a href="https://github.com/javiersantos/AppUpdater/wiki">AppUpdater by javiersantos</a> Android Library that checks for updates on Google Play, GitHub, Amazon, F-Droid or your own server. This library notifies your apps' updates by showing a Material dialog, Snackbar or notification. Check out the <a href="https://github.com/javiersantos/AppUpdater/wiki">wiki</a>.</p>
+<p align="center">This is a updated version <a href="https://github.com/javiersantos/AppUpdater">AppUpdater by javiersantos</a> Android Library that checks for updates on Google Play, GitHub, Amazon, F-Droid or your own server. This library notifies your apps' updates by showing a Material dialog, Snackbar or notification. Check out the <a href="https://github.com/javiersantos/AppUpdater/wiki">wiki</a>.</p>
 
 ## How to include
 Add the repository to your project **build.gradle**:
