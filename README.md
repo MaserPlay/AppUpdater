@@ -16,7 +16,7 @@ repositories {
 And add the library to your module **build.gradle**:
 ```Gradle
 dependencies {
-    implementation 'MaserPlay:AppUpdater:2.7'
+    implementation 'com.github.MaserPlay:AppUpdater:1.0'
 }
 ```
 
