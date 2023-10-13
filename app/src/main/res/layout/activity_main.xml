@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context="com.github.javiersantos.appupdater.demo.MainActivity"
+        tools:context="com.github.MaserPlay.appupdater.demo.MainActivity"
         tools:ignore="PrivateResource">
 
         <com.google.android.material.appbar.AppBarLayout

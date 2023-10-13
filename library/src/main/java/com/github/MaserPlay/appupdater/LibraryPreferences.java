@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,8 +1,8 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater.objects;
+package com.github.MaserPlay.appupdater.objects;
 
 public class GitHub {
     private String gitHubUser;

@@ -1,8 +1,8 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.util.Log;
 
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import org.json.JSONArray;
 import org.json.JSONException;

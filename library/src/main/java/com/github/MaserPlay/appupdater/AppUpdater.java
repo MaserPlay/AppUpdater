@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,13 +11,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.Display;
-import com.github.javiersantos.appupdater.enums.Duration;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.interfaces.IAppUpdater;
-import com.github.javiersantos.appupdater.objects.GitHub;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.Display;
+import com.github.MaserPlay.appupdater.enums.Duration;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.interfaces.IAppUpdater;
+import com.github.MaserPlay.appupdater.objects.GitHub;
+import com.github.MaserPlay.appupdater.objects.Update;
 import com.google.android.material.snackbar.Snackbar;
 
 public class AppUpdater implements IAppUpdater {

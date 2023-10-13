@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater.demo;
+package com.github.MaserPlay.appupdater.demo;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,11 +11,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.R;
-import com.github.javiersantos.appupdater.databinding.ActivityMainBinding;
-import com.github.javiersantos.appupdater.enums.Display;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.AppUpdater;
+import com.github.MaserPlay.appupdater.R;
+import com.github.MaserPlay.appupdater.databinding.ActivityMainBinding;
+import com.github.MaserPlay.appupdater.enums.Display;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
 
 public class MainActivity extends AppCompatActivity {
     private Context mContext;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 new AppUpdater(mContext)
                         //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.JSON)
                         .setUpdateJSON("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update-changelog.json")
                         .setDisplay(Display.DIALOG)
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 new AppUpdater(mContext)
                         //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.JSON)
                         .setUpdateXML("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update.json")
                         .setDisplay(Display.DIALOG)
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 new AppUpdater(mContext)
                         //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
                         .setUpdateXML("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update.xml")
                         .setDisplay(Display.SNACKBAR)
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 new AppUpdater(mContext)
                         //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
                         .setUpdateXML("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update.xml")
                         .setDisplay(Display.NOTIFICATION)

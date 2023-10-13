@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.app.Activity;
 import android.app.NotificationChannel;
@@ -12,7 +12,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.appcompat.app.AlertDialog;
 import android.view.View;
 
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
 
 import java.net.URL;
 

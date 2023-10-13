@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.github.javiersantos.appupdater"
+    namespace = "com.github.MaserPlay.appupdater"
     compileSdkVersion = 34
 
     defaultConfig {
-        applicationId "com.github.javiersantos.appupdater.demo"
+        applicationId "com.github.MaserPlay.appupdater.demo"
         minSdkVersion 14
         targetSdkVersion 34
         versionCode 4

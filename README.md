@@ -16,7 +16,7 @@ repositories {
 And add the library to your module **build.gradle**:
 ```Gradle
 dependencies {
-    implementation 'com.github.javiersantos:AppUpdater:2.7'
+    implementation 'MaserPlay:AppUpdater:2.7'
 }
 ```
 
@@ -119,7 +119,7 @@ Adding a callback to the builder allows you to customize what will happen when t
 AppUpdaterUtils appUpdaterUtils = new AppUpdaterUtils(this)
     //.setUpdateFrom(UpdateFrom.AMAZON)
     //.setUpdateFrom(UpdateFrom.GITHUB)
-    //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+    //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
     //...
     .withListener(new AppUpdaterUtils.UpdateListener() {
         @Override

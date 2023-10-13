@@ -1,8 +1,8 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.rule.UiThreadTestRule;
@@ -181,7 +181,7 @@ public class UpdateAvailableTest {
             public void run() {
                 new AppUpdaterUtils(InstrumentationRegistry.getTargetContext())
                         .setUpdateFrom(UpdateFrom.GITHUB)
-                        .setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        .setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .withListener(new AppUpdaterUtils.UpdateListener() {
                             @Override
                             public void onSuccess(Update update, Boolean isUpdateAvailable) {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.github.javiersantos.appupdater"
+    namespace = "com.github.MaserPlay.appupdater"
     compileSdkVersion = 34
 
     defaultConfig {
@@ -28,6 +28,5 @@ dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'com.squareup.okhttp3:okhttp:3.10.0'
     api 'org.jsoup:jsoup:1.11.3'
-    implementation 'androidx.annotation:annotation-jvm:1.7.0'
     implementation 'com.google.android.material:material:1.10.0'
 }

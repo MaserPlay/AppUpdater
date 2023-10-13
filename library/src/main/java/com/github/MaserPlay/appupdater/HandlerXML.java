@@ -1,6 +1,6 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater.demo;
+package com.github.MaserPlay.appupdater.demo;
 
 import android.os.Bundle;
 import android.preference.Preference;
@@ -10,10 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.R;
-import com.github.javiersantos.appupdater.enums.Display;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.AppUpdater;
+import com.github.MaserPlay.appupdater.R;
+import com.github.MaserPlay.appupdater.enums.Display;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
 
 public class SettingsActivity extends PreferenceActivity {
 
@@ -29,7 +29,7 @@ public class SettingsActivity extends PreferenceActivity {
             public boolean onPreferenceClick(Preference preference) {
                 new AppUpdater(SettingsActivity.this)
                         //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
+                        //.setGitHubUserAndRepo("MaserPlay", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
                         .setUpdateXML("https://raw.githubusercontent.com/javiersantos/AppUpdater/master/app/update-changelog.xml")
                         .setDisplay(Display.DIALOG)

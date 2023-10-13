@@ -1,18 +1,18 @@
-package com.github.javiersantos.appupdater.interfaces;
+package com.github.MaserPlay.appupdater.interfaces;
 
 import android.content.DialogInterface;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import com.github.javiersantos.appupdater.AppUpdater;
-import com.github.javiersantos.appupdater.DisableClickListener;
-import com.github.javiersantos.appupdater.UpdateClickListener;
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.Display;
-import com.github.javiersantos.appupdater.enums.Duration;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.AppUpdater;
+import com.github.MaserPlay.appupdater.DisableClickListener;
+import com.github.MaserPlay.appupdater.UpdateClickListener;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.Display;
+import com.github.MaserPlay.appupdater.enums.Duration;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 public interface IAppUpdater {
     /**
@@ -20,7 +20,7 @@ public interface IAppUpdater {
      *
      * @param display how the update will be shown
      * @return this
-     * @see com.github.javiersantos.appupdater.enums.Display
+     * @see com.github.MaserPlay.appupdater.enums.Display
      */
     AppUpdater setDisplay(Display display);
 
@@ -29,7 +29,7 @@ public interface IAppUpdater {
      *
      * @param updateFrom source where the latest update is uploaded. If GITHUB is selected, .setGitHubAndRepo method is required.
      * @return this
-     * @see com.github.javiersantos.appupdater.enums.UpdateFrom
+     * @see com.github.MaserPlay.appupdater.enums.UpdateFrom
      * @see <a href="https://github.com/javiersantos/AppUpdater/wiki">Additional documentation</a>
      */
     AppUpdater setUpdateFrom(UpdateFrom updateFrom);
@@ -39,7 +39,7 @@ public interface IAppUpdater {
      *
      * @param duration duration of the Snackbar
      * @return this
-     * @see com.github.javiersantos.appupdater.enums.Duration
+     * @see com.github.MaserPlay.appupdater.enums.Duration
      */
     AppUpdater setDuration(Duration duration);
 

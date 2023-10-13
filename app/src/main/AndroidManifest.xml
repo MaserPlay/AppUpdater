@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.github.javiersantos.appupdater.demo.MainActivity"
+            android:name="com.github.MaserPlay.appupdater.demo.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:exported="true">
 
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.github.javiersantos.appupdater.demo.SettingsActivity"
+            android:name="com.github.MaserPlay.appupdater.demo.SettingsActivity"
             android:label="@string/action_settings"/>
     </application>
 

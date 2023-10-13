@@ -1,9 +1,9 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.content.Context;
 import android.content.DialogInterface;
 
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
 
 import java.net.URL;
 

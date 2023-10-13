@@ -1,12 +1,12 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.GitHub;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.GitHub;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 public class AppUpdaterUtils {
     private Context context;
@@ -23,7 +23,7 @@ public class AppUpdaterUtils {
          * onFailed method called if it can't retrieve the latest version
          *
          * @param update            object with the latest update information: version and url to download
-         * @see com.github.javiersantos.appupdater.objects.Update
+         * @see com.github.MaserPlay.appupdater.objects.Update
          * @param isUpdateAvailable compare installed version with the latest one
          */
         void onSuccess(Update update, Boolean isUpdateAvailable);
@@ -55,7 +55,7 @@ public class AppUpdaterUtils {
      *
      * @param updateFrom source where the latest update is uploaded. If GITHUB is selected, .setGitHubAndRepo method is required.
      * @return this
-     * @see com.github.javiersantos.appupdater.enums.UpdateFrom
+     * @see com.github.MaserPlay.appupdater.enums.UpdateFrom
      * @see <a href="https://github.com/javiersantos/AppUpdater/wiki">Additional documentation</a>
      */
     public AppUpdaterUtils setUpdateFrom(UpdateFrom updateFrom) {
@@ -103,7 +103,7 @@ public class AppUpdaterUtils {
      *
      * @param appUpdaterListener the listener to be notified
      * @return this
-     * @see com.github.javiersantos.appupdater.AppUpdaterUtils.AppUpdaterListener
+     * @see com.github.MaserPlay.appupdater.AppUpdaterUtils.AppUpdaterListener
      * @deprecated
      */
     public AppUpdaterUtils withListener(AppUpdaterListener appUpdaterListener) {
@@ -116,7 +116,7 @@ public class AppUpdaterUtils {
      *
      * @param updateListener the listener to be notified
      * @return this
-     * @see com.github.javiersantos.appupdater.AppUpdaterUtils.UpdateListener
+     * @see com.github.MaserPlay.appupdater.AppUpdaterUtils.UpdateListener
      */
     public AppUpdaterUtils withListener(UpdateListener updateListener) {
         this.updateListener = updateListener;

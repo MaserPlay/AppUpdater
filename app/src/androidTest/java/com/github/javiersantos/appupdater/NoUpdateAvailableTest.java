@@ -1,12 +1,12 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.rule.UiThreadTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import org.junit.Rule;
 import org.junit.Test;

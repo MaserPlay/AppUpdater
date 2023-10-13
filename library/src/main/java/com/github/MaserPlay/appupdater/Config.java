@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 class Config {
     static final String PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=%s&hl=%s";

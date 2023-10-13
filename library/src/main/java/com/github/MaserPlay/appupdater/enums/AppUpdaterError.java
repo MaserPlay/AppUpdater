@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater.enums;
+package com.github.MaserPlay.appupdater.enums;
 
 public enum AppUpdaterError {
     /**

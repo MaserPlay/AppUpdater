@@ -1,12 +1,12 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.github.javiersantos.appupdater.enums.AppUpdaterError;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.GitHub;
-import com.github.javiersantos.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.enums.AppUpdaterError;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.GitHub;
+import com.github.MaserPlay.appupdater.objects.Update;
 
 import java.lang.ref.WeakReference;
 

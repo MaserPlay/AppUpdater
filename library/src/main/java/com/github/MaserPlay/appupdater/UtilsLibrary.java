@@ -1,4 +1,4 @@
-package com.github.javiersantos.appupdater;
+package com.github.MaserPlay.appupdater;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -11,11 +11,11 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.github.javiersantos.appupdater.enums.Duration;
-import com.github.javiersantos.appupdater.enums.UpdateFrom;
-import com.github.javiersantos.appupdater.objects.GitHub;
-import com.github.javiersantos.appupdater.objects.Update;
-import com.github.javiersantos.appupdater.objects.Version;
+import com.github.MaserPlay.appupdater.enums.Duration;
+import com.github.MaserPlay.appupdater.enums.UpdateFrom;
+import com.github.MaserPlay.appupdater.objects.GitHub;
+import com.github.MaserPlay.appupdater.objects.Update;
+import com.github.MaserPlay.appupdater.objects.Version;
 
 import org.jsoup.Jsoup;
 
